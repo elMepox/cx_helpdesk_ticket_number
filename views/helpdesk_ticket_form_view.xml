@@ -10,6 +10,9 @@
                     <span class="oe_read_only">[</span>
                     <field class="oe_read_only" name="ticket_number"/>
                     <span class="oe_read_only">]</span>
+                    <span class="oe_read_only">
+                        <![CDATA[&nbsp;]]>
+                    </span>
                 </xpath>
             </field>
         </record>

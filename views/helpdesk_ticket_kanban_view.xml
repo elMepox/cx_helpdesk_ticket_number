@@ -10,7 +10,7 @@
                 <xpath expr="//strong" position="replace">
                     <strong>
                         [<field name="ticket_number"/>]
-                        <space>-</space>
+                        <![CDATA[&nbsp;]]>
                         <field name="name"/>
                     </strong>
                 </xpath>

@@ -10,7 +10,6 @@
                 <xpath expr="//field[@name='name']" position="attributes">
                     <attribute name="filter_domain">['|',('ticket_number', '=', self), ('name', 'ilike', self)]</attribute>
                 </xpath>
-                <field name="id" position="replace"/>
             </field>
         </record>
     </data>
